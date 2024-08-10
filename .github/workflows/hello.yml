@@ -12,8 +12,7 @@ jobs:
     steps:
       - name: Print Hello
         run:
-          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 4"
-    steps:
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 5"
       - name: Print Hello x2
         run:
-          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 4"
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 5"
