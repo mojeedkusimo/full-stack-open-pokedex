@@ -1,0 +1,15 @@
+name: Mojeed CI/CD Hello World!
+
+on: 
+  push:
+    branches:
+      - main
+
+
+jobs:
+  mk_hello_world_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Print Hello
+        run:
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster!"
