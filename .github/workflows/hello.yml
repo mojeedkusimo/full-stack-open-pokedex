@@ -12,7 +12,11 @@ jobs:
     steps:
       - name: Print Hello
         run:
-          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 5"
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 6"
       - name: Print Hello x2
         run:
-          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 5"
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 6"
+      - name: Show date
+          run: date
+      - name: Display contents in pwd
+          run: ls -lha
