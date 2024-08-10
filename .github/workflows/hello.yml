@@ -12,10 +12,4 @@ jobs:
     steps:
       - name: Print Hello
         run:
-          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 2"
-    steps:
-      - name: Display current time
-        run: date
-    steps:
-      - name: Print items in pwd
-        run: ls -lha
+          echo "Hi there! This is Mojeed, the DevOps Grandmaster! Part 3"
